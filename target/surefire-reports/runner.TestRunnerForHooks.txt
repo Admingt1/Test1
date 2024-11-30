@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunnerForHooks
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 4.27 s <<< FAILURE! - in runner.TestRunnerForHooks
+Check login successfull(Test login functionality hook)  Time elapsed: 2.684 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 125
+Current browser version is 131.0.6778.86 with binary path C:\Users\neupa\AppData\Local\Google\Chrome\Application\chrome.exe 
+Host info: host: 'TIGER', ip: '192.168.200.3'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
+
+Check login successfull(Test login functionality hook)  Time elapsed: 2.684 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+Check login not successfull(Test login functionality hook)  Time elapsed: 1.511 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 125
+Current browser version is 131.0.6778.86 with binary path C:\Users\neupa\AppData\Local\Google\Chrome\Application\chrome.exe 
+Host info: host: 'TIGER', ip: '192.168.200.3'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
+
+Check login not successfull(Test login functionality hook)  Time elapsed: 1.511 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
